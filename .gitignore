@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Local environment and secrets
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Archive files - do not upload project environment ZIPs
+venv-*.zip
+__pycache__-*.zip
